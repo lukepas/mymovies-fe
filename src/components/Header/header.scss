@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    background-color: $bg-darker-color;
+}
+
+.header_logo {
+    margin-left: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $logo-color;
+}

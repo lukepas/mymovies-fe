@@ -1,0 +1,17 @@
+@import '../../styles/colors';
+
+.default_button {
+    border: none;
+    color: $white-color;
+    background-color: $alert-darker-color;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding: 6px 26px;
+    border-radius: 0.25em;
+    transition: ease-in-out 0.2s;
+}
+
+.default_button:hover,
+.default_button:focus {
+    background-color: $alert-color;
+}
