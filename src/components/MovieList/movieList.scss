@@ -1,0 +1,17 @@
+@import '../../styles/colors';
+
+.table_movie-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid $logo-color;
+    border-radius: 0.25em;
+    padding: 2em;
+}
+
+.table_movie-list_tile {
+    font-size: 2em;
+    font-weight: bold;
+    color: $alert-darker-color;
+    text-transform: uppercase;
+}

@@ -3,5 +3,9 @@ export const ROUTE_PATHS = {
     LOGIN: '/login',
     REGISTER: '/register',
     MOVIE: '/:id',
-    NOT_FOUND: '/404',
+    NOT_FOUND: '/*',
+};
+
+export const REROUTE_PATHS = {
+    MOVIE: '/',
 };

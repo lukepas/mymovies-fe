@@ -1,8 +1,15 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
+import Layout from '../../components/Layout/Layout';
+import MovieList from '../../components/MovieList/MovieList';
+
+import './home.scss';
 
 export default function Home() {
     return (
-        <Header />
+        <Layout>
+            <section className="section_movie-list">
+                <MovieList />
+            </section>
+        </Layout>
     );
 }
