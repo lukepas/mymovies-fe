@@ -12,6 +12,7 @@ export default function MovieList() {
         const response = await moviesRepository.getAll();
         setMoviesList(response);
     };
+
     useEffect(() => {
         getMoviesList();
     }, []);

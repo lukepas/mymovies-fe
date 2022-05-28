@@ -17,10 +17,10 @@ export default function TableRow({ list, reroutePath }) {
             {list.map((item) => (
                 <td
                     className="table-row_text"
-                    key={item.id}
+                    key={item.movie_id}
                 >
                     <Link
-                        to={`${reroutePath}${item.id}`}
+                        to={`${reroutePath}${item.movie_id}`}
                     >
                         {item.title}
                     </Link>

@@ -5,4 +5,5 @@ export const BUTTON_TEXT = {
     REMOVE: 'Remove',
     UPDATE: 'Update',
     HOME: 'Home',
+    REGISTER: 'Register',
 };

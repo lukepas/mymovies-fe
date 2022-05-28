@@ -1,6 +1,6 @@
 @import '../../styles/colors';
 
-.login_form {
+.register_form {
     max-width: 720px;
     min-width: 360px;
     border-radius: 0.5em;
@@ -12,13 +12,13 @@
     background-color: $bg-darker-color;
 }
 
-.login_form_title {
+.register_form_title {
     font-size: 1.25em;
     font-weight: bold;
     margin-top: 1em;
 }
 
-.login_form_input {
+.register_form_input {
     padding: 0.75em;
     border: none;
     margin: 1em 0;
@@ -26,28 +26,28 @@
     border-radius: 0.5em;
 }
 
-.login_button_wrapper,
-.login_register,
-.login_error {
+.register_button_wrapper,
+.register_login,
+.register_error {
     margin-bottom: 1em;
 }
 
-.login_error,
-.login_register,
-.login_form_title {
+.register_error,
+.register_login,
+.register_form_title {
     color: $alert-color;
 }
 
-.login_register {
+.register_login {
     font-size: 1.15em;
 }
 
-.login_register_span {
+.register_login_span {
     font-weight: bolder;
     color: $alert-color;
 }
 
-.login_register_span:hover,
-.login_register_span:focus {
+.register_login_span:hover,
+.register_login_span:focus {
     text-decoration: underline;
 }
