@@ -9,7 +9,7 @@ import SingleMovie from './pages/SingleMovie/SingleMovie';
 import Register from './pages/Register/Register';
 import ProtectedRoutes from './components/ProtectedRoutes/ProtectedRoutes';
 
-function App() {
+export default function App() {
     return (
         <div className="app">
             <Routes>
@@ -24,5 +24,3 @@ function App() {
         </div>
     );
 }
-
-export default App;

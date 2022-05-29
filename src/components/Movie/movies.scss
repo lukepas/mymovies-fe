@@ -1,0 +1,26 @@
+@import '../../styles/colors';
+
+.movie_artcle-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie_artcle-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: $logo-color;
+    margin-bottom: 1em;
+}
+
+.movie_artcle-description,
+.movie_artcle-title  {
+    text-align: center;
+}
+
+.movie_artcle-description {
+    max-width: 600px;
+    font-size: 1.25em;
+    color: $base-color;
+}

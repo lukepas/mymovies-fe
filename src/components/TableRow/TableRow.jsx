@@ -6,21 +6,21 @@ import './tableRow.scss';
 export default function TableRow({ list, reroutePath }) {
     if (!list || list.length === 0) {
         return (
-            <tr className="table-row_empty">
-                <td>Oh noes! Your list is empty 😢</td>
+            <tr>
+                <td className="table-row_empty">Oh noes! Your list is empty 😢</td>
             </tr>
         );
     }
 
     return (
-        <tr>
+        <tr className="table-row_list">
             {list.map((item) => (
                 <td
                     className="table-row_text"
-                    key={item.movie_id}
+                    key={item.id}
                 >
                     <Link
-                        to={`${reroutePath}${item.movie_id}`}
+                        to={`${reroutePath}${item.id}`}
                     >
                         {item.title}
                     </Link>
