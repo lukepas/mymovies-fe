@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import { ROUTE_PATHS } from './constants/routes';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
@@ -10,6 +11,9 @@ import Register from './pages/Register/Register';
 import ProtectedRoutes from './components/ProtectedRoutes/ProtectedRoutes';
 
 export default function App() {
+    const isUserLoggedIn = useSelector((state) => state.user.isLoggedIn);
+    console.log(isUserLoggedIn);
+
     return (
         <div className="app">
             <Routes>
